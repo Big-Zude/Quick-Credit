@@ -48,25 +48,25 @@ ul {
 }
 
 input[type=text] {
-    width: 36%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px;
     box-sizing: border-box;
     display: inline-block;
 }
 
 input[type=email] {
-    width: 36%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
     box-sizing: border-box;
     display: inline-block;
 }
 
 input[type=password] {
-    width: 36%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
     box-sizing: border-box;
     display: inline-block;
 }
@@ -184,11 +184,20 @@ article#main-col{
 
 
 
-footer {
-    padding: 10px;
-    margin-top: 10px;
-    text-align: center;
-    background-color: green;
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:green;
     color: white;
+    text-align: center;
 }
 
+@media screen and (max-width: 300px) {
+
+    
+    .button {
+        width: 100%;
+    }
+}
