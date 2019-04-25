@@ -65,4 +65,71 @@
     </footer>
 </body>
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Zude Mwango">
+    <link rel="stylesheet" type="text/css" href="C:\Users\mastermind\Desktop\Quick-Credit-feature\UI\CSS\stylesheet.css">
+    <title>Loans</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>
+                    <span class="highlight">Quick</span> Credit
+                </h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="current"><a href="services.html">Services</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="index.html">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="main">
+        <div class="container">
+            <<form action="payment.html" method="post">>
+                <h3>Loan Request</h3>
+                Loan Id:<br>
+                <input type="text" name="loanId" readonly><br>
+                First name:<br>
+                <input type="text" name="firstName" minlength="1" maxlength="30" required><br>
+                Last name:<br>
+                <input type="text" name="lastName" minlength="1" maxlength="30" required><br>
+                 Email:<br>
+                <input type="text" name="email" required><br>
+                 Tenor:<br>
+                <input type="text" name="tenor" value="12months" readonly><br>
+                 Amount:<br>
+                <input type="text" name="amount" required><br>
+                 Payment Installation:<br>
+                <input type="text" name="paymentInstallation" required><br>
+                 Status:<br>
+                <input type="text" name="status" value="Pending" readonly><br>
+                 Balance:<br>
+                <input type="text" name="balance"><br><br>
+                 Interest:<br>
+                <input type="text" name="interest" value="5% interest" readonly><br>
+                <button class="button">Submit</button>
+            </form>
+
+           
+        </div>
+    </section>
+
+    <footer>
+        <p>Quick Credit by Zude Mwango Copyrights &copy; 2019</p>
+    </footer>
+</body>
+
 </html>
