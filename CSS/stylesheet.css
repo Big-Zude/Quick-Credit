@@ -48,7 +48,7 @@ ul {
 }
 
 input[type=text] {
-    width: 30%;
+    width: 50%;
     padding: 15px;
     margin: 5px 0 22px;
     box-sizing: border-box;
@@ -56,7 +56,7 @@ input[type=text] {
 }
 
 input[type=email] {
-    width: 30%;
+    width: 50%;
     padding: 15px;
     margin: 5px 0 22px 0;
     box-sizing: border-box;
@@ -64,7 +64,7 @@ input[type=email] {
 }
 
 input[type=password] {
-    width: 30%;
+    width: 50%;
     padding: 15px;
     margin: 5px 0 22px 0;
     box-sizing: border-box;
@@ -195,10 +195,12 @@ article#main-col{
     text-align: center;
 }
 
-@media screen and (min-width: 320px) {
-
-    
+@media only screen 
+    and (min-width: 320px) 
+    and (orientation:portrait) 
+    and (-webkit-device-pixel-ratio: 2) {
     .button input[type=text] input[type=email] input[type=password] {
         width: 100%;
     }
+
 }
