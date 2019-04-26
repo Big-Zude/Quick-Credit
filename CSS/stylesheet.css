@@ -198,7 +198,7 @@ article#main-col{
 @media screen and (max-width: 300px) {
 
     
-    .button {
+    .button input[type=text] input[type=email] input[type=password] {
         width: 100%;
     }
 }

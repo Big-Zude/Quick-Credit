@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Zude Mwango">
     <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
-    <title>Loans</title>
+    <title>payment</title>
+    <script src="js/payment.js"></script>
 </head>
 
 <body>
@@ -32,19 +33,21 @@
     
         <div class="container">
             <div id="payment">
-            <form>
+            <form name="myform">
                 <h3>Payments</h3>
                 Loan Id:<br>
                 <input type="text" name="loanId" readonly><br>
                 Amount:<br>
-                <input type="text" name="amount" required><br>
+                <input type="text" name="amount" id="amount" required><br>
                 Payment:<br>
-                <input type="text" name="Payment" required><br>
+                <input type="text" name="payment" id="payment" required><br>
                 Balance:<br>
-                <input type="text" name="amount" required><br>
+                <input type="text" name="balance" id="balance" ><br>
                 Status:<br>
                 <input type="text" name="status" value="Pending" readonly><br>
-                <button class="button">Submit</button>
+                <button onclick="payment()">=</button>
+                <input type="text" id="result">
+
             </form>
             </div>
         </div>
