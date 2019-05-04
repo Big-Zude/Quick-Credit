@@ -1,0 +1,31 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "Quick Credit is an online lending platform that provides short term soft loans to individuals. This helps solve problems of financial inclusion as a way to alleviate poverty and empower low income earners.",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Big-Zude/Quick-Credit.git"
+  },
+  "keywords": [
+    "quick",
+    "credit"
+  ],
+  "author": "Zude Mwango",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Big-Zude/Quick-Credit/issues"
+  },
+  "homepage": "https://github.com/Big-Zude/Quick-Credit#readme"
+}
